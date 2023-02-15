@@ -1,3 +1,7 @@
+#To decide bes time to buy and sell the stocks
+# buy at low price and sell at high price
+# mem: O(1)
+# Time: Linear -> O(n) scans through the array one time by using two pointers.
 class Solution:
     def maxProfit(self,prices: List[int]) -> int:
         List= [1,2,3,4,5]
