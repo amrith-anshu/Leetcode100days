@@ -1,3 +1,5 @@
+#Longest Common Subsequence between text1 and text2.
+#technique used 2d grid and updating value by bottom up Dynamic programming.
 class Solution:
     def longestCommonSubsequence(self, text1: str, text2: str) -> int:
         dp=[[0 for j in range(len(text2)+1)] for i in range(len(text1)+1)]
